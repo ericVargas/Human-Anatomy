@@ -9,10 +9,10 @@ Clear indication of parts along with names. Finally, an option to submit comment
  
 ### Wireframes
 
-Home Page
+Home Page<br>
 ![](images/apHome.jpg)
 <br><br>
-Feedback Page
+Feedback Page<br>
 ![](images/apComments.jpg)
 <br>
 
