@@ -1,10 +1,34 @@
-## Project4  
+# Human Anatomy Site (Project 4)
+ 
+General review site on the human anatomy and its systems with location of each organ and flow of movement. Filtered views of the body to focus each area and even overlap systems to see there placements. A dedicated feedback page to give recommendations on how I can improve the site to the current medical standards.
+ 
+### User Stories
+ 
+As a user, there should be easy to read buttons, along with quick settings adjusting what to display and how.
+Clear indication of parts along with names. Finally, an option to submit comments and see them.
+ 
+### Wireframes
 
-* My project will be a general review site for EMTs to be or a refresher for current EMTs.
+Home Page
+![](images/apHome.jpg)
+<br><br>
+Feedback Page
+![](images/apComments.jpg)
+<br>
 
-* Pulling info from multiple APIs to make one centralized API that will hold the essential info to use throughout the site.
+### Pseudo code
 
-* The site will hold topics of Human Anatomy and Physiology, Medical and Trauma Assesment, Proper Field Equipment and Usage, Basic Medical Terminology, Emergency Interventions and Medicinal Administration.
+* Create a database with a table to hold all the comments.
+* Generate directories for views, routes and pg-promise
+* UI build of HTML and CSS on landing page with a Nav bar and a main section.
+* Manage functions for CR (Create and Read).
+* Create second Nav bar to filter through each system to display.
+* Branch off each system with sub-categories.
+* Create function to display most liked comments up top.
+ 
+### Download & Install
 
-* Towards the Footer of the site have feedback section to update the page with current findings/discoveries and update to local and national protocols.
+1. Git clone or [download](https://github.com/ericVargas/Project4) this project
+2. On your terminal, run psql -f ./models/apComments.sql
+3. After that run npm run dev, app should be available on localhost:3000
 
