@@ -1,0 +1,24 @@
+<% include ./partials/boilerplate %>
+   <div class='container'>
+    <h1><%= title %></h1>
+    <p> Feedback for <%= title %>!!!</p>
+    <form method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="comments" placeholder="Comment">
+        <input type="submit" value="Submit">
+    </form>
+    <ul>
+        <% data.forEach(function(d) { %>
+            <li data-id=<%=d.id%>> 
+                <p><b>#<%= d.name %></b> <%= d.comments %>, <%= d.likes %> <button id="like" value="Like" type="submit"> 
+              <script>
+                     var id =<%= d.id %>;
+                 $('#like').click(function(){
+                     $.put('/like/'+ id );
+                 });
+                    </script>Like</button></p>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+<% include ./partials/end %> 
