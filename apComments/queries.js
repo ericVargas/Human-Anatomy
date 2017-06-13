@@ -24,7 +24,7 @@ function getAllFeedbacks(req, res, next) {
 
 function addLike(req, res, next){ // adding a like to total like count
     console.log('body:', req.body)
-    db.none('UPDATE feedback SET likes=$1 + 1 WHERE id = $2', 
+    db.none('UPDATE feedback SET likes=+1 WHERE id = $1', 
         [req.body.likes, parseInt(req.params.id)])
         .then(function(data){
             console.log('updated likes', data)
