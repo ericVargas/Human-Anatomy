@@ -210,3 +210,31 @@ Cardiac muscle'),
 ('./../public/images/muscle/musculoskeletal.png', 'Contraction and relaxation of this system make it possible to move and manipulate the environment.
 A by-product of this movement is heat.
 Another function of the muscles is to protect the structures under them.');
+
+CREATE TABLE respiratory(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO respiratory (image, description)
+VALUES 
+('./../public/images/respiratory/respiratory.png', 'Structures of the body that contribute to respiration, oxygen reaches body tissues and cells through breathing and circulation. The main function of the upper airway is to warm, filter, and humidify air as it enters the body. The function of the lower airway is to deliver oxygen to the alveoli. The respiratory and cardiovascular systems work together.
+Ensure a constant supply of oxygen and nutrients is delivered to cells
+Remove carbon dioxide and waste products.'),
+('./../public/images/respiratory/larynx.png', 'Larynx is a complex structure formed by many independent cartilaginous structures
+Marks where the upper airway ends and the lower airway begins
+Thyroid cartilage
+Cricoid cartilage 
+Glottis: the area between the vocal cords.
+The trachea ends at the carina, dividing into right and left bronchi leading to bronchioles'),
+('./../public/images/respiratory/extResp.png', 'The lungs are divided into lobes that contain bronchi, bronchioles, and alveoli and allow for gas exchange. 
+External respiration (pulmonary respiration) 
+Brings fresh air into the respiratory system
+Exchanges oxygen and carbon dioxide between 
+alveoli and blood in pulmonary capillaries.'),
+('./../public/images/respiratory/intResp.png', 'Actual exchange of oxygen and carbon dioxide in the alveoli and tissues of the body
+Cells take energy from nutrients through metabolism.
+Internal respiration
+Exchange of oxygen and carbon dioxide between 
+the systemic circulatory system and cells.');
