@@ -238,3 +238,35 @@ Cells take energy from nutrients through metabolism.
 Internal respiration
 Exchange of oxygen and carbon dioxide between 
 the systemic circulatory system and cells.');
+
+CREATE TABLE nervous(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO nervous (image, description)
+VALUES 
+('./../public/images/nervous/nervous.png', 'The nervous system is perhaps the most complex organ in body
+Divided into two main portions:
+Central nervous system (CNS)
+Peripheral nervous system'),
+('./../public/images/nervous/brainlobes.png', 'Brain
+Controlling organ of the body
+Subdivisions
+Cerebrum
+Cerebellum
+Brain stem
+Spinal cord
+Continuation of the brain
+Transmits messages between brain and body'),
+('./../public/images/nervous/brainlayers.png', 'Somatic nervous system
+Transmits signals from brain to voluntary muscles 
+Autonomic nervous system
+Involuntary actions
+Split into two areas
+Sympathetic nervous system (fight-or-flight)
+Parasympathetic nervous system (slows body)
+Two types of nerves within peripheral nervous system
+Sensory nerves carry information from the body to the CNS.
+Motor nerves carry information from the CNS to the muscles.');
