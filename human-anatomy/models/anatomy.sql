@@ -108,3 +108,84 @@ Enzymes convert food into basic sugars, fatty acids, amino acids.
 Further processed by liver
 Circulated via blood throughout the body');
 
+CREATE TABLE skeletal(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO skeletal (image, description)
+VALUES 
+('./../public/images/skeletal/axial.png', 'The skeletal system contains:
+Bones
+Ligaments
+Tendons
+Cartilage
+Functions of the skeletal system:
+Gives the body its shape
+Protects fragile organs
+Allows for movement
+Stores calcium
+Helps create blood cells.
+The axial skeleton is the foundation to which the arms and legs are attached. 
+It includes: Skull, Spinal column and Thorax'),
+('./../public/images/skeletal/skull.png', 'The skull holds many bones.
+Cranium: made up of 4 bones
+Face: made up of 14 bones'),
+('./../public/images/skeletal/spine.png', 'The spinal column is composed of 33 
+bones (vertebrae)
+Divided into 5 sections:
+Cervical
+Thoracic
+Lumbar
+Sacrum
+Coccyx'),
+('./../public/images/skeletal/thorax.png', 'Formed by 12 
+thoracic vertebrae 
+and 12 pairs of ribs.
+Thoracic cavity 
+contains:
+Heart
+Lungs
+Esophagus
+Great vessels'),
+('./../public/images/skeletal/appendicular.png', 'Arms, legs, their connection points, and pelvis.
+The Upper Extremities:
+Composed of arms, forearms, hands, and fingers
+Shoulder girdle
+Clavicle
+Scapula
+Humerus'),
+('./../public/images/skeletal/hand.png', 'Arm:
+Humerus is the supporting bone
+Forearm:
+Radius on lateral side
+Ulna on medial side
+Wrist and hand:
+Ball-and-socket joint
+Principal bones:
+Carpals
+Metacarpals
+Phalanges'),
+('./../public/images/skeletal/pelvis.png', 'Closed bony ring consisting of three bones
+Sacrum
+Two pelvic bones
+Each pelvic bone is formed by fusion of the ilium, ischium, and pubis.
+Posteriorly, the ilium, ischium, and pubis bones are joined by the sacrum.
+Anteriorly, the pubic symphysis is where the right and left pubis are joined.'),
+('./../public/images/skeletal/foot.png', 'The Lower Extremities:
+Main components: thigh, leg, and foot
+Femur (thighbone) 
+Femur connects into pelvic girdle by ball-and-socket joint
+Knee connects upper leg to lower leg
+Kneecap (patella)
+Lower leg
+Tibia (shinbone)
+Fibula	
+Ankle
+A hinge joint
+Allows flexion/extension of foot
+Foot
+7 tarsal bones
+5 metatarsal bones
+Toes are formed by phalanges');
