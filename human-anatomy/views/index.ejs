@@ -1,0 +1,12 @@
+<% include ./partials/boilerplate %>
+   <div class='container'>
+    <h1><%= title %></h1>
+    <ul>
+        <% data.forEach(function(d) { %>
+            <li data-id=<%=d.id%>> 
+                <p><b><%= d.name %></b> <%= d.comments %>, <%= d.likes %></p>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+<% include ./partials/end %> 
