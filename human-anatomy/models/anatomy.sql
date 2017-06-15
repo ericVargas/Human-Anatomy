@@ -189,3 +189,24 @@ Foot
 7 tarsal bones
 5 metatarsal bones
 Toes are formed by phalanges');
+
+CREATE TABLE musculoskeletal(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO musculoskeletal (image, description)
+VALUES 
+('./../public/images/muscle/types.png', 'The musculoskeletal system provides:
+Form
+Upright posture
+Movement
+Protection for vital internal organs
+3 types of muscle
+Skeletal (voluntary) muscle
+Smooth muscle
+Cardiac muscle'),
+('./../public/images/muscle/musculoskeletal.png', 'Contraction and relaxation of this system make it possible to move and manipulate the environment.
+A by-product of this movement is heat.
+Another function of the muscles is to protect the structures under them.');
