@@ -71,3 +71,40 @@ Veins return oxygen-depleted blood to the heart
 Superior vena cava carries blood returning from head, neck, shoulders, and upper extremities
 Inferior vena cava carries blood from abdomen, pelvis, and lower extremities');
 
+CREATE TABLE digestive(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO digestive (image, description)
+VALUES 
+('./../public/images/digestive.png', 'ANATOMY
+Digestion: processing of food that nourishes the cells
+Abdomen: the second major body cavity
+Contains major organs of digestion and excretion
+Quadrants are the easiest way to identify areas:
+Right upper 
+Lower upper 
+Right lower 
+Left lower
+Mouth
+Lips, cheeks, gums, teeth, tongue
+Salivary glands
+Oropharynx
+Esophagus
+Stomach
+Pancreas
+Liver
+Bile ducts
+Small intestine
+Large intestine
+Appendix
+Rectum
+PHYSIOLOGY
+Enzymes are added to food.
+By salivary glands, stomach, liver, pancreas, and small intestine
+Enzymes convert food into basic sugars, fatty acids, amino acids.
+Further processed by liver
+Circulated via blood throughout the body');
+

@@ -3,9 +3,7 @@ var router = express.Router();
 var db = require('../queries');
 
 
-router.get('/', db.getAllCardio);
-
-router.post('/', db.createFeedback);
+router.get('/cardio', db.getAllCardio);
 
 
 module.exports = router;
