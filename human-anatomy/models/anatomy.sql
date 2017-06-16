@@ -270,3 +270,23 @@ Parasympathetic nervous system (slows body)
 Two types of nerves within peripheral nervous system
 Sensory nerves carry information from the body to the CNS.
 Motor nerves carry information from the CNS to the muscles.');
+
+CREATE TABLE integumentary(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO integumentary (image, description)
+VALUES 
+('./../public/images/integumentary.png', 'The Integumentary System (Skin):
+Two layers
+Epidermis (superficial)
+Dermis (deeper)
+Below the skin lies subcutaneous tissue. 
+Fat that insulates and serves as energy reservoir  
+The skin is the largest single organ in the body.
+Three major functions
+Protect the body in the environment
+Regulate body temperature
+Transmit information from environment to brain');
