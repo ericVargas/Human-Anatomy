@@ -290,3 +290,15 @@ Three major functions
 Protect the body in the environment
 Regulate body temperature
 Transmit information from environment to brain');
+
+CREATE TABLE lymphatic(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO lymphatic (image, description)
+VALUES 
+('./../public/images/lymphatic.png', 'The Lymphatic System supports the circulatory system and immune system.
+Lymph is a thin, straw-colored fluid that carries oxygen and nutrients to cells and waste products away.
+Helps to rid the body of toxins and other harmful materials
