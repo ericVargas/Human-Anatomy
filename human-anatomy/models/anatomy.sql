@@ -332,3 +332,30 @@ VALUES
 Filters and eliminates wastes
 Controls pH balance
 Kidneys, ureter, urinary bladder');
+
+CREATE TABLE reproductive(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO reproductive (image, description)
+VALUES 
+('./../public/images/reproductive/male.png', 'The Genital System:
+Controls reproductive processes
+Male system:
+Testicles
+Epididymis
+Vasa deferentia
+Prostate gland
+Seminal vesicles
+Penis'),
+('./../public/images/reproductive/female.png', 'The Genital System:
+Controls reproductive processes
+Female system:
+Ovaries
+Fallopian 
+tubes
+Uterus 
+Cervix
+Vagina');
