@@ -376,3 +376,13 @@ Imaginary straight lines that divide the body
 Coronal plane: front/back
 Transverse plane: top/bottom
 Sagittal (lateral) plane: left/right');
+
+CREATE TABLE eye(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO eye (image, description)
+VALUES
+('./../public/images/eye.png', '');
