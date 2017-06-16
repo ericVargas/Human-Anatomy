@@ -320,3 +320,15 @@ Integrates many body functions
 Hormones are released directly into the bloodstream.
 Each hormone has a specific effect on some organ, tissue, or process.');
 
+CREATE TABLE urinary(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO urinary (image, description)
+VALUES 
+('./../public/images/urinary.png', 'The Urinary System: Controls fluid balance in the body
+Filters and eliminates wastes
+Controls pH balance
+Kidneys, ureter, urinary bladder');
