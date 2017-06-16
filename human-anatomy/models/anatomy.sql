@@ -12,12 +12,12 @@ CREATE TABLE cardiovascular(
 
 INSERT INTO cardiovascular (image, description)
 VALUES 
-('./../public/images/cardio/flow.png', 'A complex arrangement of connected tubes: 
+('http://i.imgur.com/IVrD8Hg.png', 'A complex arrangement of connected tubes: 
 Arteries, arterioles, capillaries, venules, veins.
 Two circuits:
 Systemic circulation (body)
 Pulmonary circulation (lungs)'),
-('./../public/images/cardio/heart.png', 'Made of specialized cardiac muscle 
+('http://i.imgur.com/CSa5ny7.png', 'Made of specialized cardiac muscle 
 Works as two paired pumps
 Septum divides right and left sides
 Each side is divided into:
@@ -36,7 +36,7 @@ HR × SV = CO
 Electrical conduction system
 Causes smooth, coordinated contractions
 Contractions produce the pumping action'),
-('./../public/images/cardio/circulatory.png', 'The Circulatory System: Physiology
+('http://i.imgur.com/xSmvrLV.png', 'The Circulatory System: Physiology
 Blood pressure: the pressure blood exerts against the walls of the arteries
 Systole occurs when the left ventricle contracts
 Diastole occurs when the left ventricle relaxes
@@ -58,7 +58,7 @@ Spleen:
 Solid organ located under the rib cage
 Filters blood
 Particularly susceptible to injury from blunt trauma, can lead to severe internal bleeding'),
-('./../public/images/cardio/capillaries.png', 'Arteries carry blood from the heart to all body tissues.
+('http://i.imgur.com/QikFV7J.png', 'Arteries carry blood from the heart to all body tissues.
 Pulmonary artery
 Carries oxygen-poor blood to the lungs
 Arteries branch into smaller arteries and then into arterioles. 
@@ -79,7 +79,7 @@ CREATE TABLE digestive(
 
 INSERT INTO digestive (image, description)
 VALUES 
-('./../public/images/digestive.png', 'ANATOMY
+('http://i.imgur.com/k42QZfD.png', 'ANATOMY
 Digestion: processing of food that nourishes the cells
 Abdomen: the second major body cavity
 Contains major organs of digestion and excretion
@@ -116,7 +116,7 @@ CREATE TABLE skeletal(
 
 INSERT INTO skeletal (image, description)
 VALUES 
-('./../public/images/skeletal/axial.png', 'The skeletal system contains:
+('http://i.imgur.com/rdsJWR5.png', 'The skeletal system contains:
 Bones
 Ligaments
 Tendons
@@ -129,10 +129,10 @@ Stores calcium
 Helps create blood cells.
 The axial skeleton is the foundation to which the arms and legs are attached. 
 It includes: Skull, Spinal column and Thorax'),
-('./../public/images/skeletal/skull.png', 'The skull holds many bones.
+('http://i.imgur.com/Y2hjULE.png', 'The skull holds many bones.
 Cranium: made up of 4 bones
 Face: made up of 14 bones'),
-('./../public/images/skeletal/spine.png', 'The spinal column is composed of 33 
+('http://i.imgur.com/XF1FQ3M.png', 'The spinal column is composed of 33 
 bones (vertebrae)
 Divided into 5 sections:
 Cervical
@@ -140,7 +140,7 @@ Thoracic
 Lumbar
 Sacrum
 Coccyx'),
-('./../public/images/skeletal/thorax.png', 'Formed by 12 
+('http://i.imgur.com/pTq9ULm.png', 'Formed by 12 
 thoracic vertebrae 
 and 12 pairs of ribs.
 Thoracic cavity 
@@ -149,14 +149,14 @@ Heart
 Lungs
 Esophagus
 Great vessels'),
-('./../public/images/skeletal/appendicular.png', 'Arms, legs, their connection points, and pelvis.
+('http://i.imgur.com/MTa1Qqp.png', 'Arms, legs, their connection points, and pelvis.
 The Upper Extremities:
 Composed of arms, forearms, hands, and fingers
 Shoulder girdle
 Clavicle
 Scapula
 Humerus'),
-('./../public/images/skeletal/hand.png', 'Arm:
+('http://i.imgur.com/6nQv5Ih.png', 'Arm:
 Humerus is the supporting bone
 Forearm:
 Radius on lateral side
@@ -167,13 +167,13 @@ Principal bones:
 Carpals
 Metacarpals
 Phalanges'),
-('./../public/images/skeletal/pelvis.png', 'Closed bony ring consisting of three bones
+('http://i.imgur.com/QqXR04R.png', 'Closed bony ring consisting of three bones
 Sacrum
 Two pelvic bones
 Each pelvic bone is formed by fusion of the ilium, ischium, and pubis.
 Posteriorly, the ilium, ischium, and pubis bones are joined by the sacrum.
 Anteriorly, the pubic symphysis is where the right and left pubis are joined.'),
-('./../public/images/skeletal/foot.png', 'The Lower Extremities:
+('http://i.imgur.com/pYRrzwa.png', 'The Lower Extremities:
 Main components: thigh, leg, and foot
 Femur (thighbone) 
 Femur connects into pelvic girdle by ball-and-socket joint
@@ -198,7 +198,7 @@ CREATE TABLE musculoskeletal(
 
 INSERT INTO musculoskeletal (image, description)
 VALUES 
-('./../public/images/muscle/types.png', 'The musculoskeletal system provides:
+('http://i.imgur.com/oKwz3GG.png', 'The musculoskeletal system provides:
 Form
 Upright posture
 Movement
@@ -207,7 +207,7 @@ Protection for vital internal organs
 Skeletal (voluntary) muscle
 Smooth muscle
 Cardiac muscle'),
-('./../public/images/muscle/musculoskeletal.png', 'Contraction and relaxation of this system make it possible to move and manipulate the environment.
+('http://i.imgur.com/O47eooH.png', 'Contraction and relaxation of this system make it possible to move and manipulate the environment.
 A by-product of this movement is heat.
 Another function of the muscles is to protect the structures under them.');
 
@@ -219,21 +219,21 @@ CREATE TABLE respiratory(
 
 INSERT INTO respiratory (image, description)
 VALUES 
-('./../public/images/respiratory/respiratory.png', 'Structures of the body that contribute to respiration, oxygen reaches body tissues and cells through breathing and circulation. The main function of the upper airway is to warm, filter, and humidify air as it enters the body. The function of the lower airway is to deliver oxygen to the alveoli. The respiratory and cardiovascular systems work together.
+('http://i.imgur.com/2UtMZW1.png', 'Structures of the body that contribute to respiration, oxygen reaches body tissues and cells through breathing and circulation. The main function of the upper airway is to warm, filter, and humidify air as it enters the body. The function of the lower airway is to deliver oxygen to the alveoli. The respiratory and cardiovascular systems work together.
 Ensure a constant supply of oxygen and nutrients is delivered to cells
 Remove carbon dioxide and waste products.'),
-('./../public/images/respiratory/larynx.png', 'Larynx is a complex structure formed by many independent cartilaginous structures
+('http://i.imgur.com/oZLOIXe.png', 'Larynx is a complex structure formed by many independent cartilaginous structures
 Marks where the upper airway ends and the lower airway begins
 Thyroid cartilage
 Cricoid cartilage 
 Glottis: the area between the vocal cords.
 The trachea ends at the carina, dividing into right and left bronchi leading to bronchioles'),
-('./../public/images/respiratory/extResp.png', 'The lungs are divided into lobes that contain bronchi, bronchioles, and alveoli and allow for gas exchange. 
+('http://i.imgur.com/Y5CkxPx.png', 'The lungs are divided into lobes that contain bronchi, bronchioles, and alveoli and allow for gas exchange. 
 External respiration (pulmonary respiration) 
 Brings fresh air into the respiratory system
 Exchanges oxygen and carbon dioxide between 
 alveoli and blood in pulmonary capillaries.'),
-('./../public/images/respiratory/intResp.png', 'Actual exchange of oxygen and carbon dioxide in the alveoli and tissues of the body
+('http://i.imgur.com/vtgtcEC.png', 'Actual exchange of oxygen and carbon dioxide in the alveoli and tissues of the body
 Cells take energy from nutrients through metabolism.
 Internal respiration
 Exchange of oxygen and carbon dioxide between 
@@ -247,11 +247,11 @@ CREATE TABLE nervous(
 
 INSERT INTO nervous (image, description)
 VALUES 
-('./../public/images/nervous/nervous.png', 'The nervous system is perhaps the most complex organ in body
+('http://i.imgur.com/bl5Q2dQ.png', 'The nervous system is perhaps the most complex organ in body
 Divided into two main portions:
 Central nervous system (CNS)
 Peripheral nervous system'),
-('./../public/images/nervous/brainlobes.png', 'Brain
+('http://i.imgur.com/jZohcQd.png', 'Brain
 Controlling organ of the body
 Subdivisions
 Cerebrum
@@ -260,7 +260,7 @@ Brain stem
 Spinal cord
 Continuation of the brain
 Transmits messages between brain and body'),
-('./../public/images/nervous/brainlayers.png', 'Somatic nervous system
+('http://i.imgur.com/E7fEy3O.png', 'Somatic nervous system
 Transmits signals from brain to voluntary muscles 
 Autonomic nervous system
 Involuntary actions
@@ -279,7 +279,7 @@ CREATE TABLE integumentary(
 
 INSERT INTO integumentary (image, description)
 VALUES 
-('./../public/images/integumentary.png', 'The Integumentary System (Skin):
+('http://i.imgur.com/UGdGpdw.png', 'The Integumentary System (Skin):
 Two layers
 Epidermis (superficial)
 Dermis (deeper)
@@ -299,7 +299,7 @@ CREATE TABLE lymphatic(
 
 INSERT INTO lymphatic (image, description)
 VALUES 
-('./../public/images/lymphatic.png', 'The Lymphatic System supports the circulatory system and immune system.
+('http://i.imgur.com/kh20EDE.png', 'The Lymphatic System supports the circulatory system and immune system.
 Lymph is a thin, straw-colored fluid that carries oxygen and nutrients to cells and waste products away.
 Helps to rid the body of toxins and other harmful materials');
 
@@ -311,11 +311,11 @@ CREATE TABLE endocrine(
 
 INSERT INTO endocrine (image, description)
 VALUES 
-('./../public/images/endocrine/endo_male.png', 'The Endocrine System: Complex message and control system 
+('http://i.imgur.com/PmRpEZR.png', 'The Endocrine System: Complex message and control system 
 Integrates many body functions
 Hormones are released directly into the bloodstream.
 Each hormone has a specific effect on some organ, tissue, or process.'),
-('./../public/images/endocrine/endo_female.png', 'The Endocrine System: Complex message and control system 
+('http://i.imgur.com/Uk4am6D.png', 'The Endocrine System: Complex message and control system 
 Integrates many body functions
 Hormones are released directly into the bloodstream.
 Each hormone has a specific effect on some organ, tissue, or process.');
@@ -328,7 +328,7 @@ CREATE TABLE urinary(
 
 INSERT INTO urinary (image, description)
 VALUES 
-('./../public/images/urinary.png', 'The Urinary System: Controls fluid balance in the body
+('http://i.imgur.com/l0pJO43.png', 'The Urinary System: Controls fluid balance in the body
 Filters and eliminates wastes
 Controls pH balance
 Kidneys, ureter, urinary bladder');
@@ -341,7 +341,7 @@ CREATE TABLE reproductive(
 
 INSERT INTO reproductive (image, description)
 VALUES 
-('./../public/images/reproductive/male.png', 'The Genital System:
+('http://i.imgur.com/QY5maOt.png', 'The Genital System:
 Controls reproductive processes
 Male system:
 Testicles
@@ -350,7 +350,7 @@ Vasa deferentia
 Prostate gland
 Seminal vesicles
 Penis'),
-('./../public/images/reproductive/female.png', 'The Genital System:
+('http://i.imgur.com/E7eH4E2.png', 'The Genital System:
 Controls reproductive processes
 Female system:
 Ovaries
@@ -368,7 +368,7 @@ CREATE TABLE direction(
 
 INSERT INTO direction (image, description)
 VALUES
-('./../public/images/directions.png', 'Superficial landmarks serve as guides to the structures that lie beneath 
+('http://i.imgur.com/jGT5UQA.png', 'Superficial landmarks serve as guides to the structures that lie beneath 
 Topographic anatomy applies to a body in the anatomic position.
 Patient stands facing you, arms at side, palms forward.
 Planes of the Body
@@ -385,4 +385,25 @@ CREATE TABLE eye(
 
 INSERT INTO eye (image, description)
 VALUES
-('./../public/images/eye.png', '');
+('http://i.imgur.com/62kE0I4.png', 'Globe-shaped, approximately 1 inch in diameter
+Located within a bony socket in the skull called the orbit
+The orbit protects over 80% of the eyeball.
+Clear, jellylike fluid near the back of the eye is called vitreous humor.
+In front of the lens is a fluid called the aqueous humor, which can leak out in penetrating injuries.
+The conjunctiva is the membrane that covers the eye.
+The lacrimal glands produce fluid to keep the eye moist.
+The sclera is the white, fibrous tissue that helps maintain the globular shape.
+
+
+On the front of the eye, the sclera is replaced by a clear, transparent membrane called the cornea.
+Allows light to enter the eye
+The iris is a circular muscle behind the cornea.
+The pupil is the opening in the center of the iris.
+Allows light to move to the back of the eye
+Anisocoria is a condition in which a person is born with different-sized pupils.
+The lens lies behind the iris.
+Focuses images on the retina at the back of the globe
+The retina contains nerve endings.
+Responds to light by transmitting nerve impulses through the optic nerve to the brain
+The retina is nourished by a layer of blood vessels.
+Retinal detachment causes blindness.');

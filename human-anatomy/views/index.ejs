@@ -1,10 +1,10 @@
 <% include ./partials/boilerplate %>
    <div class='container'>
-    <h1><%= title %></h1>
+    <h1><%= title %> System</h1>
     <ul>
         <% data.forEach(function(d) { %>
             <li data-id=<%=d.id%>> 
-                <p><b><%= d.name %></b> <%= d.comments %>, <%= d.likes %></p>
+                <img src=<%= d.image %>><p><%= d.description %></p>
             </li>
         <% }) %>
     </ul>

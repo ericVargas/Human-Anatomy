@@ -12,8 +12,10 @@ function getCardio(req, res, next) {
     console.log('Cardiovascular System');
     db.any('SELECT * FROM cardiovascular')
         .then(function (data) {
-            res.render('index', {
-                title: 'Cardiovascular',
+            res.status(200)
+                .json({
+//            res.render('index', {
+//                title: 'Cardiovascular',
                 data: data
             })
         });
