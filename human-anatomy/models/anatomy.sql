@@ -359,3 +359,20 @@ tubes
 Uterus 
 Cervix
 Vagina');
+
+CREATE TABLE direction(
+    id SERIAL PRIMARY KEY,
+    image TEXT,
+    description TEXT
+);
+
+INSERT INTO direction (image, description)
+VALUES
+('./../public/images/directions.png', 'Superficial landmarks serve as guides to the structures that lie beneath 
+Topographic anatomy applies to a body in the anatomic position.
+Patient stands facing you, arms at side, palms forward.
+Planes of the Body
+Imaginary straight lines that divide the body
+Coronal plane: front/back
+Transverse plane: top/bottom
+Sagittal (lateral) plane: left/right');
