@@ -12,10 +12,8 @@ function getCardio(req, res, next) {
     console.log('Cardiovascular System');
     db.any('SELECT * FROM cardiovascular')
         .then(function (data) {
-            res.status(200)
-                .json({
-//            res.render('index', {
-//                title: 'Cardiovascular',
+            res.render('index', {
+                title: 'Cardiovascular',
                 data: data
             })
         });
@@ -25,10 +23,10 @@ function getDigest(req, res, next) { // Read function to display all Digestive i
     console.log('Digestive System');
     db.any('SELECT * FROM digestive')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Digestive System',
+                data: data
+            })
         });
 }
 
@@ -36,10 +34,10 @@ function getSkeletal(req, res, next) { // Read function to display all Skeletal 
     console.log('Skeletal System');
     db.any('SELECT * FROM skeletal')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Skeletal System',
+                data: data
+            })
         });
 }
 
@@ -47,10 +45,10 @@ function getMuscle(req, res, next) { // Read function to display all Musculoskel
     console.log('Musculoskeletal System');
     db.any('SELECT * FROM musculoskeletal')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Musculoskeletal System',
+                data: data
+            })
         });
 }
 
@@ -58,10 +56,10 @@ function getResp(req, res, next) { // Read function to display all Respiratory i
     console.log('Respiratory System');
     db.any('SELECT * FROM respiratory')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Respiratory System',
+                data: data
+            })
         });
 }
 
@@ -69,10 +67,10 @@ function getNervous(req, res, next) { // Read function to display all Nervous in
     console.log('Nervous System');
     db.any('SELECT * FROM nervous')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Nervous System',
+                data: data
+            })
         });
 }
 
@@ -80,10 +78,10 @@ function getInteg(req, res, next) { // Read function to display all Integumentar
     console.log('Integumentary System');
     db.any('SELECT * FROM integumentary')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Integumentary System',
+                data: data
+            })
         });
 }
 
@@ -91,10 +89,10 @@ function getLymph(req, res, next) { // Read function to display all Lymphatic in
     console.log('Lymphatic System');
     db.any('SELECT * FROM lymphatic')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Lymphatic System',
+                data: data
+            })
         });
 }
 
@@ -102,10 +100,10 @@ function getEndo(req, res, next) { // Read function to display all Endocrine inf
     console.log('Endocrine System');
     db.any('SELECT * FROM endocrine')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Endocrine System',
+                data: data
+            })
         });
 }
 
@@ -113,10 +111,10 @@ function getUrinary(req, res, next) { // Read function to display all Urinary in
     console.log('Urinary System');
     db.any('SELECT * FROM urinary')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Urinary System',
+                data: data
+            })
         });
 }
 
@@ -124,10 +122,10 @@ function getReproduce(req, res, next) { // Read function to display all Reproduc
     console.log('Reproductive System');
     db.any('SELECT * FROM reproductive')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Reproductive System',
+                data: data
+            })
         });
 }
 
@@ -135,10 +133,10 @@ function getDirect(req, res, next) { // Read function to display Directions as J
     console.log('Directional Diagram');
     db.any('SELECT * FROM direction')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Welcome to Anatomy & Physiology',
+                data: data
+            })
         });
 }
 
@@ -146,10 +144,10 @@ function getEye(req, res, next) { // Read function to display Eye as JSON
     console.log('Eye Anatomy');
     db.any('SELECT * FROM eye')
         .then(function (data) {
-            res.status(200)
-                .json({
-                    data: data
-                })
+            res.render('index', {
+                title: 'Eye Anatomy',
+                data: data
+            })
         });
 }
 
