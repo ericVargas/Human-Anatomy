@@ -1,6 +1,7 @@
 # Human Anatomy Site (Project 4)
+## [Preview](https://anatomy-physiology-api.herokuapp.com/)
  
-General review site on the human anatomy and its systems with location of each organ and flow of movement. Filtered views of the body to focus each area and even overlap systems to see there placements. A dedicated feedback page to give recommendations on how I can improve the site to the current medical standards.
+General review site on the human anatomy and its systems with location of each organ and flow of movement. A dedicated feedback page to give recommendations on how I can improve the site to the current medical standards.
  
 ### User Stories
  
@@ -32,6 +33,6 @@ Body Systems API<br>
 ### Download & Install
 
 1. Git clone or [download](https://github.com/ericVargas/Project4) this project
-2. On your terminal, run psql -f ./models/apComments.sql
+2. On your terminal, run psql -f ./models/anatomy.sql
 3. After that run npm run dev, app should be available on localhost:3000
 
