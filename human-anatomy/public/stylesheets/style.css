@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    margin: 30px auto;
+    margin: 30px auto 10px;
     text-align: center;
     font-size: 2.8rem;
 }
@@ -84,22 +84,23 @@ main {
     margin-left: 25px;
     padding: 50px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(1 1fr);
+    grid-gap: 80px;
 }
 
 .item {
     display: grid;
+    width: 80%;
+    justify-self: center;
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    width: 65%;
     justify-self: center;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 @media only screen (max-device-width : 670px) {
