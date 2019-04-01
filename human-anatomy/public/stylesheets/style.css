@@ -126,7 +126,7 @@ p {
 
     #aside {
         width: 100%;
-        height: 65%;
+        height: 400px;
         position: relative;
         z-index: 0;
         left: 0px;
@@ -173,13 +173,17 @@ p {
         grid-gap: 50px;
     }
 
-    .item,
-    img {
+    .item {
         width: 85%;
+    }
+    
+    img{
+        width: 100%;
     }
 
     p {
         font-size: 1.1rem;
+        text-align: justify;
     }
 
     .show {
